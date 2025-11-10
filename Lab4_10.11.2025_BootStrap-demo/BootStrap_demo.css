@@ -1,0 +1,70 @@
+body {
+      background: url('https://images.unsplash.com/photo-1521920592574-49e0b121c964?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470') no-repeat center center fixed;
+      background-size: cover;
+      color: #f8f9fa;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+    }
+
+    .card-title {
+      color: #2c3e50;
+    }
+
+    .card-text {
+      color: #34495e;
+    }
+
+    .btn-add {
+      background-color: #28a745;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      transition: all 0.3s ease;
+    }
+
+    .btn-add:hover {
+      background-color: #218838;
+      transform: scale(1.05);
+    }
+
+    .hero {
+      background: rgba(52, 73, 94, 0.7);
+      padding: 3rem 1rem;
+      border-radius: 1rem;
+      text-align: center;
+      color: #f1c40f;
+    }
+
+    footer {
+      background: linear-gradient(45deg, #2c3e50, #34495e);
+      color: #ecf0f1;
+    }
+
+    .navbar {
+      background: linear-gradient(45deg, #2c3e50, #34495e);
+    }
+
+    .navbar .nav-link {
+      color: #ecf0f1;
+    }
+
+    .navbar .nav-link.active {
+      color: #f1c40f;
+      font-weight: bold;
+    }
+
+    #cartSection {
+      background-color: rgba(44, 62, 80, 0.9);
+      border-radius: 15px;
+    }
+
+    #cart li {
+      color: #ecf0f1;
+    }
+
+    h4.text-warning {
+      color: #f1c40f !important;
+    }
